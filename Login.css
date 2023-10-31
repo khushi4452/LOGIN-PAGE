@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-size: 100%  740px;
+
+}
+
+.contain{
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    color:white ;
+    background-color: black;
+    margin-left: 40%;
+    margin-top: 7%;
+    justify-content: center;
+    animation:animate 6s linear infinite ;
+}
+
+ .contain .text{
+    position: relative;
+    top: 7%;
+
+ }
+
+ .contain h1{
+    font-size: 36px;
+    color: aqua;
+ }
+
+ .inp1 { 
+border:none ;
+background-color: black;
+border-bottom: 2px solid white;
+width: 250px;
+font-size: 20px;
+margin-top: 40px;
+outline: none;
+color: white;
+
+
+ }
+
+ .inp2 { 
+    border:none ;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+    
+    
+     }
+
+     .text button{
+        width: 250px;
+        height: 44px;
+        background-color: aqua;
+        color: black;
+        border: none;
+        font-size: 24px;
+        border-radius: 25px;
+        margin-top: 20px;
+        cursor: pointer;
+     }
+     button:hover {
+        border: 3px solid aqua;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+
+     }
+
+
+
+     p{
+        margin-top:30px ;
+        font-size: 20px;
+     }
+
+
+     span {
+        color: aqua;
+        cursor: pointer;
+     }
